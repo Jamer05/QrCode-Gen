@@ -20,8 +20,5 @@ python3 qrcode.py
 
 Shortcut
 
-git clone https://github.com/Jamer05/QrCode-Gen.git
-cd QrCode-Gen
-chmod +x install.sh
-install.sh
+apt install wget && wget https://raw.githubusercontent.com/Jamer05/QrCode-Gen/main/install.sh && bash install.sh
 ```
