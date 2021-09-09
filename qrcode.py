@@ -6,6 +6,7 @@ import png
 import cowsay
 from pyqrcode import QRCode 
 import os
+import sys
 
 back_is_true = True
 def to_url():
@@ -25,6 +26,7 @@ cowsay.cow("Wala kang qrcode? Pwes eto ang life hack para sa iyo By: JamerCute")
 while (back_is_true):
     print ('''>>Press 1 to create qr urls
 >>Press 2 to create qr information 
+>>Press 3 to exit
     ''')
     sel = int(input("Select mode: "))
     i=0
@@ -35,6 +37,8 @@ while (back_is_true):
         n,a,ad,cn,gen = input("Enter name: "),input("Enter age: "), input("Enter Address: "), input("Enter contact number: "), input("Enter gender: ")
         myQR = pyqrcode.create(information(n,a,ad,cn,gen)) 
         myQR.png(n+str(i)+'.png', scale=8)
+    elif sel == 3: 
+        sys.exit()
                 
 			
 			
