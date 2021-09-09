@@ -7,15 +7,15 @@
 ```
 Linux:
 git clone https://github.com/Jamer05/QrCode-Gen.git
-pip install -r requirements.txt
 cd QrCode-Gen
+pip install -r requirements.txt
 python3 qrcode.py
 
 Windows
 
 git clone https://github.com/Jamer05/QrCode-Gen.git
-pip install -r requirements.txt
 cd QrCode-Gen
+pip install -r requirements.txt
 python3 qrcode.py
 
 ```
