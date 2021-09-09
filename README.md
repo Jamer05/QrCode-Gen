@@ -18,4 +18,8 @@ cd QrCode-Gen
 pip install -r requirements.txt
 python3 qrcode.py
 
+Shortcut
+
+chmod +x install.sh
+install.sh
 ```
