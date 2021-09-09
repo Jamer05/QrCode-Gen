@@ -1,7 +1,7 @@
 # QrCode Generator
 ## Author: github.com/Jamer05
 
-![sh](https://github.com/Jamer05/Jamer-Spammer/blob/main/assete/me.png)
+![sh](https://github.com/Jamer05/Jamer-Spammer/blob/main/assets/me.png)
 
 ### Usage:
 ```
