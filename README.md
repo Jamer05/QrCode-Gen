@@ -9,13 +9,13 @@ Linux:
 git clone https://github.com/Jamer05/QrCode-Gen.git
 pip install -r requirements.txt
 cd QrCode-Gen
-python3 QrCode-Gen.py
+python3 qrcode.py
 
 Windows
 
 git clone https://github.com/Jamer05/QrCode-Gen.git
 pip install -r requirements.txt
 cd QrCode-Gen
-python3 QrCode-Gen.py
+python3 qrcode.py
 
 ```
